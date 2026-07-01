@@ -1,0 +1,1915 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Services</title>
+    <!-- Splide CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="bg-[#042C53] border-b border-[#17436E]">
+        <div class="mx-auto">
+            <div class="flex items-center justify-between h-12">
+                <div class="flex items-center sm:gap-4 gap-3">
+                    <!-- Desktop Sidebar Button -->
+                    <button id="desktop-sidebar" aria-label="Toggle menu"
+                        class="demo-trigger hidden lg:block text-green1 hover:text-green2 xl:px-19 md:px-6 py-5 bg-[#17436E] hover:bg-[#344a88] cursor-pointer transition-colors"
+                        aria-label="Toggle menu">
+                        <svg width="42" height="8" viewBox="0 0 42 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="42" height="2" fill="white" />
+                            <rect y="6" width="42" height="2" fill="white" />
+                        </svg>
+                    </button>
+                    <!-- Mobile Hamburger -->
+                    <button id="mobile-menu-toggle"
+                        class="lg:hidden text-white hover:text-green1 p-2 transition-colors bg-[#00625A]"
+                        aria-label="Toggle mobile menu">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="12" width="32" height="2" fill="white" />
+                            <rect y="18" width="32" height="2" fill="white" />
+                        </svg>
+                    </button>
+                    <a href="index.html" class="flex items-center">
+                        <!-- replace with your logo img -->
+                        <img src="assets/images/pixxen-home-services-logo.svg" alt="Pixxen"
+                            class="img-fluid sm:w-auto w-[136px]">
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden lg:flex items-center space-x-8">
+
+                    <!-- ====== SERVICES DROPDOWN ====== -->
+                    <div class="desktop-dropdown">
+                        <a href="#services"
+                            class="text-white hover:text-green1 transition-colors text-base font-medium desktop-dropdown-toggle">
+                            SERVICES <span class="desktop-dropdown-icon ml-1">+</span>
+                        </a>
+
+                        <!-- Mega panel: list LEFT + grid RIGHT -->
+                        <div class="desktop-dropdown-menu">
+
+                            <!-- LEFT: service items -->
+                            <ul class="dropdown-service-list">
+                                <li>
+                                    <a href="mobile-app-design.html">
+                                        <span class="service-icon">
+                                            <!-- Mobile icon -->
+                                            <img src="assets/images/dropdownicon1.svg" class="img-fluid"
+                                                alt="dropdown-icon">
+                                        </span>
+                                        MOBILE APP DESIGN
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="dashboard-design.html">
+                                        <span class="service-icon">
+                                            <!-- Dashboard/pie icon -->
+                                            <img src="assets/images/dropdownicon2.svg" class="img-fluid"
+                                                alt="dropdown-icon">
+                                        </span>
+                                        DASHBOARD DESIGN
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="website-design.html">
+                                        <span class="service-icon">
+                                            <!-- Monitor icon -->
+                                            <img src="assets/images/dropdownicon3.svg" class="img-fluid"
+                                                alt="dropdown-icon">
+                                        </span>
+                                        WEBSITE DESIGN
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="web-application-design.html">
+                                        <span class="service-icon">
+                                            <!-- Laptop icon -->
+                                            <img src="assets/images/dropdownicon4.svg" class="img-fluid"
+                                                alt="dropdown-icon">
+                                        </span>
+                                        WEB APP DESIGN
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="saas-design.html">
+                                        <span class="service-icon">
+                                            <!-- Desktop/screen icon -->
+                                            <img src="assets/images/dropdownicon5.svg" class="img-fluid"
+                                                alt="dropdown-icon">
+                                        </span>
+                                        SAAS DESIGN
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="branding-design.html">
+                                        <span class="service-icon">
+                                            <!-- Brand/star icon -->
+                                            <img src="assets/images/dropdownicon6.svg" class="img-fluid"
+                                                alt="dropdown-icon">
+                                        </span>
+                                        BRANDING
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <!-- right: items -->
+                            <div class="flex items-end">
+                                <img src="assets/images/dropdown-shape.svg" alt="">
+                            </div>
+
+                        </div>
+                        <!-- end .desktop-dropdown-menu -->
+                    </div>
+                    <!-- ====== end SERVICES ====== -->
+
+                    <a href="case-study.html"
+                        class="text-white hover:text-green1 transition-colors text-base font-medium">CASE STUDIES</a>
+                    <a href="about.html"
+                        class="text-white hover:text-green1 transition-colors text-base font-medium">ABOUT</a>
+                    <a href="blog.html"
+                        class="text-white hover:text-green1 transition-colors text-base font-medium">BLOG</a>
+                    <a href="contact.html"
+                        class="text-white hover:text-green1 transition-colors text-base font-medium">Contact</a>
+                </div>
+
+                <!-- Desktop Buttons -->
+                <div class="hidden lg:flex items-center">
+                    <a href="contact.html"
+                        class="hidden mega-reveal-btn relative overflow-hidden cursor-pointer sm:block xl:px-12 md:px-5 py-3 text-white border border-[#344B8B]  transition-all font-medium">
+                        <div class="text-mask md:h-6 h-6 overflow-hidden flex flex-col">
+                            <span class="t-up text-base  font-medium text-white ">OUR Contact</span>
+                            <span class="t-down text-base  font-medium text-white ">OUR Contact</span>
+                        </div>
+                    </a>
+                    <a href="contact.html"
+                        class="xl:px-12 md:px-5 mega-reveal-btn relative overflow-hidden cursor-pointer py-3 bg-[#50C878] text-white transition-colors font-bold">
+                        <div class="text-mask md:h-6 h-6 overflow-hidden flex flex-col">
+                            <span class="t-up text-base  font-medium text-[#042C53] ">Let’s Connect</span>
+                            <span class="t-down text-base  font-medium text-[#042C53] ">Let’s Connect</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Mobile LET'S CONNECT -->
+                <a href="contact.html"
+                    class="lg:hidden px-4 sm:px-5 mobile-letconnect mega-reveal-btn relative overflow-hidden cursor-pointer py-4 sm:py-4 bg-[#FFC75C] text-green5 transition-colors font-bold">
+                    <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+                        <span class="t-up text-sm  font-medium text-green4 ">OUR Let’s Connect</span>
+                        <span class="t-down text-sm  font-medium text-green4 ">OUR Let’s Connect</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- ====================== MOBILE MENU (2-panel) ====================== -->
+        <!-- Dark overlay -->
+        <div id="mobile-overlay" class="mobile-overlay"></div>
+
+        <!-- Wrapper holds both panels -->
+        <div id="mobile-menu-wrapper" class="mobile-menu-wrapper">
+
+            <!-- PANEL 1: Main Menu -->
+            <div id="mm-main" class="mm-panel mm-main">
+                <div class="mm-main-header">
+                    <span class="mm-title">Menu</span>
+                    <button id="mm-close" class="mm-close-btn" aria-label="Close menu">
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z"
+                                fill="white" />
+                        </svg>
+
+                    </button>
+                </div>
+
+                <ul class="mm-nav-list">
+                    <li>
+                        <!-- SERVICES: opens panel 2 -->
+                        <button id="mm-services-trigger" class="mm-nav-link w-full text-left"
+                            style="background:none;border:none;cursor:pointer;">
+                            SERVICES
+                            <span class="mm-plus">+</span>
+                        </button>
+                    </li>
+                    <li><a href="case-study.html" class="mm-nav-link">case studies</a></li>
+                    <li><a href="about.html" class="mm-nav-link">about</a></li>
+                    <li><a href="blog.html" class="mm-nav-link">blog</a></li>
+                    <li><a href="contact.html" class="mm-nav-link">contact</a></li>
+                    <li><a href="team.html" class="mm-nav-link">team</a></li>
+                    <li>
+                        <div class="flex justify-start  mt-8 mx-4">
+                            <a href="contact.html"
+                                class="mega-reveal-btn relative overflow-hidden cursor-pointer md:px-10 md:py-4 sm:px-8 sm:py-4 px-6 py-4 rounded-2xl ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 bg-green1 transition-all duration-200">
+
+                                <div class="btn-inner relative z-2 flex items-center gap-3">
+                                    <div
+                                        class="icon-circle h-6 w-6 rounded-full bg-green4 flex items-center justify-center overflow-hidden">
+                                        <div class="icon-slider flex flex-row ">
+                                            <svg class="arrow-icon w-4 h-4 shrink-0 mx-2.5" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M12.1716 6.77822L6.8076 1.41421L8.2218 0L16 7.77822L8.2218 15.5563L6.8076 14.1421L12.1716 8.77822H0V6.77822H12.1716Z"
+                                                    fill="var(--color-green1)" />
+                                            </svg>
+                                            <svg class="arrow-icon w-4 h-4 shrink-0 mx-2.5" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M12.1716 6.77822L6.8076 1.41421L8.2218 0L16 7.77822L8.2218 15.5563L6.8076 14.1421L12.1716 8.77822H0V6.77822H12.1716Z"
+                                                    fill="var(--color-green1)" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="text-mask md:h-7.5 h-6 overflow-hidden flex flex-col">
+                                        <span
+                                            class="t-up md:text-[20px] text-base  font-medium text-[#042C53] ">Let’s
+                                            Connect</span>
+                                        <span
+                                            class="t-down md:text-[20px] text-base  font-medium text-[#042C53] ">Let’s
+                                            Connect</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- LET'S CONNECT -->
+                <div>
+                    <div>
+                        <div class="w-full flex justify-end">
+                            <img src="assets/images/menu-mobile-shape.svg" class="img-fluid sm:w-auto w-[190px]"
+                                alt="mobile menu">
+                        </div>
+                        <img src="assets/images/mobile-bottom-logo.svg" class="img-fluid w-full" alt="mobile menu">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- PANEL 2: Services -->
+            <div id="mm-services" class="mm-panel mm-services">
+                <div class="mm-services-header">
+                    <button id="mm-back" class="mm-back-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                            <path d="M19 12H5M11 6l-6 6 6 6" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        BACK
+                    </button>
+                    <button id="mm-services-close" class="mm-close-btn" aria-label="Close menu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z"
+                                fill="white" />
+                        </svg>
+
+                    </button>
+                </div>
+
+                <div>
+                    <div class="mm-services-title">Services</div>
+
+                    <!-- 2×3 grid -->
+                    <div class="mm-services-grid">
+                        <!-- Mobile App Design -->
+                        <a href="mobile-app-design.html" class="mm-service-card">
+                            <span class="card-icon">
+                                <img src="assets/images/dropdownicon1.svg" class="img-fluid" alt="dropdown-icon">
+                            </span>
+                            <span class="card-label">MOBILE APP DESIGN</span>
+                        </a>
+                        <!-- Dashboard Design -->
+                        <a href="dashboard-design.html" class="mm-service-card">
+                            <span class="card-icon">
+                                <img src="assets/images/dropdownicon2.svg" class="img-fluid" alt="dropdown-icon">
+                            </span>
+                            <span class="card-label">DASHBOARD DESIGN</span>
+                        </a>
+                        <!-- Website Design -->
+                        <a href="website-design.html" class="mm-service-card">
+                            <span class="card-icon">
+                                <img src="assets/images/dropdownicon3.svg" class="img-fluid" alt="dropdown-icon">
+                            </span>
+                            <span class="card-label">WEBSITE DESIGN</span>
+                        </a>
+                        <!-- Web App Design -->
+                        <a href="web-application-design.html" class="mm-service-card">
+                            <span class="card-icon">
+                                <img src="assets/images/dropdownicon4.svg" class="img-fluid" alt="dropdown-icon">
+                            </span>
+                            <span class="card-label">WEB APP DESIGN</span>
+                        </a>
+                        <!-- SaaS Design -->
+                        <a href="saas-design.html" class="mm-service-card">
+                            <span class="card-icon">
+                                <img src="assets/images/dropdownicon5.svg" class="img-fluid" alt="dropdown-icon">
+                            </span>
+                            <span class="card-label">SAAS DESIGN</span>
+                        </a>
+                        <!-- Branding -->
+                        <a href="branding-design.html" class="mm-service-card">
+                            <span class="card-icon">
+                                <img src="assets/images/dropdownicon6.svg" class="img-fluid" alt="dropdown-icon">
+                            </span>
+                            <span class="card-label">BRANDING</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- decorative bottom grid -->
+                <div>
+                    <div>
+                        <div class="w-full flex justify-end">
+                            <img src="assets/images/menu-mobile-shape.svg" class="img-fluid sm:w-auto w-[190px]"
+                                alt="mobile menu">
+                        </div>
+                        <img src="assets/images/mobile-bottom-logo.svg" class="img-fluid w-full" alt="mobile menu">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end mobile-menu-wrapper -->
+    </nav>
+
+    <!-- FULL PAGE MENU -->
+    <div id="pixxen-menu" role="dialog" aria-modal="true" aria-label="Main navigation">
+
+        <!-- TOP PANEL: slides in from top -->
+        <div class="menu-top" id="menu-top">
+
+            <!-- Grid decoration top-left -->
+            <div class="deco-cross" style="top:0px; left:0px;">
+                <img src="assets/images/large-menu-top.svg" class="img-fluid" alt="">
+            </div>
+
+            <!-- Grid decoration top-right area -->
+            <div class="deco-cross" style="bottom:0px; right:0px;">
+                <img src="assets/images/large-menu-bottom.svg" class="img-fluid" alt="">
+            </div>
+
+            <!-- LET'S CONNECT -->
+
+            <a href="contact.html"
+                class="xl:px-12 connect-btn md:px-5 mega-reveal-btn relative overflow-hidden cursor-pointer py-3 bg-green1 text-green5 transition-colors font-bold">
+                <div class="text-mask md:h-6 h-6 overflow-hidden flex flex-col">
+                    <span class="t-up text-base  font-medium text-[#042C53] ">Let’s Connect</span>
+                    <span class="t-down text-base  font-medium text-[#042C53] ">Let’s Connect</span>
+                </div>
+            </a>
+
+            <!-- CLOSE BUTTON -->
+            <div class="close-wrap">
+                <button class="close-btn" id="menu-close" aria-label="Close menu">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 6L18 18M6 18L18 6" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- NAV LINKS -->
+            <nav class="nav-columns" id="nav-columns">
+
+                <div class="nav-col" id="col-services">
+                    <div class="nav-col-title">Services</div>
+                    <ul>
+                        <li><a href="mobile-app-design.html">Mobile App Design</a></li>
+                        <li><a href="dashboard-design.html">Dashboard Design</a></li>
+                        <li><a href="website-design.html">Website Design</a></li>
+                        <li><a href="web-application-design.html">Web App Design</a></li>
+                        <li><a href="saas-design.html">SaaS Design</a></li>
+                        <li><a href="branding-design.html">Branding</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-col" id="col-pixxen">
+                    <div class="nav-col-title">Pixxen</div>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="case-study.html">Case Studies</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-col" id="col-resources">
+                    <div class="nav-col-title">Resources</div>
+                    <ul>
+                        <li><a href="career.html">Career</a></li>
+                        <li><a href="blog.html">Blogs</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-col" id="col-legal">
+                    <div class="nav-col-title">Legal</div>
+                    <ul>
+                        <li><a href="terms.html">Terms</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div><!-- /menu-top -->
+
+
+        <!-- BOTTOM PANEL: slides in from bottom (logo bar) -->
+        <div class="menu-bottom" id="menu-bottom">
+
+
+            <!-- LOGO -->
+            <div class="bottom-logo" id="bottom-logo">
+
+                <img src="assets/images/largemenu-pixxen-logo.svg" class="img-fluid" alt="largemenu">
+            </div>
+
+        </div><!-- /menu-bottom -->
+
+    </div>
+    <!-- / FULL PAGE MENU -->
+
+
+
+
+
+
+
+    <!-- HERO SECTION  start-->
+    <div class="home-services-banner bg-[#042C53] mt-12">
+        <div class="min-h-[90vh]">
+  <!-- 50 / 50 row -->
+    <div class="flex flex-col lg:flex-row lg:items-stretch">
+ 
+      <!-- ===== LEFT (50%) ===== -->
+      <div class="w-full lg:w-1/2 flex flex-col justify-center px-6 py-12 lg:py-20 lg:pl-[77px] lg:pr-10">
+ 
+        <!-- Title -->
+        <h1 class="text-[38px] lg:text-[64px] leading-[100%] text-white font-normal">
+          <span class="bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] bg-clip-text text-transparent">Accounting firm</span>
+          website design that turns search traffic into qualified consultation requests
+        </h1>
+ 
+        <!-- Description -->
+        <p class="mt-6 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-['Cossette_Texte'] font-coss-text">
+          Logo, branding, custom accounting firm website, SEO content built around real practice-area keywords, on-page SEO, and Google Business Profile setup. Every page engineered for the moment a prospect decides whether your firm is credible enough to share their financials with.
+        </p>
+ 
+        <!-- Buttons -->
+        <div class="mt-8 flex flex-col sm:flex-row sm:gap-4 gap-2 flex-wrap">
+ 
+          <!-- Primary -->
+          <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] transition-all duration-200">
+            <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+              <span class="t-up text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+              <span class="t-down text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+            </div>
+          </a>
+ 
+          <!-- Secondary (outline) -->
+          <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 border border-white bg-transparent transition-all duration-200">
+            <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+              <span class="t-up text-[#fff] leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+              <span class="t-down text-[#fff] leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+            </div>
+          </a>
+ 
+        </div>
+ 
+        <!-- Price block -->
+        <div class="mt-10 flex items-stretch gap-6">
+          <div class="w-[2px] rounded-full bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]"></div>
+          <div class="flex flex-col gap-1">
+            <span class="text-sm text-[#A3C1DE] font-coss-text sm:text-base">Everything included</span>
+            <span class="text-2xl lg:text-[32px] font-normal text-[#A3C1DE]">$999</span>
+          </div>
+        </div>
+ 
+        <!-- Checklist -->
+        <ul class="mt-10 flex flex-col gap-3 md:pb-20">
+          <li class="flex items-center gap-3 text-sm lg:text-base text-[#A3C1DE] font-coss-text">
+            <img src="assets/images/account-home-checks.svg" class="img-fluid" alt="account check">
+            Trusted by CPAs and accounting firms across the US, Canada, and UK
+          </li>
+          <li class="flex items-center gap-3 text-sm lg:text-base text-[#A3C1DE] font-coss-text">
+           <img src="assets/images/account-home-checks.svg" class="img-fluid" alt="account check">
+            14-day delivery
+          </li>
+          <li class="flex items-center gap-3 text-sm lg:text-base text-[#A3C1DE] font-coss-text">
+           <img src="assets/images/account-home-checks.svg" class="img-fluid" alt="account check">
+            You own the site, content, and domain
+          </li>
+          <li class="flex items-center gap-3 text-sm lg:text-base text-[#A3C1DE] font-coss-text">
+            <img src="assets/images/account-home-checks.svg" class="img-fluid" alt="account check">
+            No retainers
+          </li>
+        </ul>
+ 
+      </div>
+ 
+    <div class="relative w-full lg:w-1/2 overflow-hidden">
+    <div class="scene relative w-full">
+ 
+      <!-- One combined image (people + green blobs exported together from Figma) -->
+      <img class="hero-img block w-full object-contain select-none pointer-events-none"
+           src="assets/images/banner-right-with-shape.webp"
+         
+           alt="Accounting firm consultation" />
+ 
+    </div>
+  </div>
+    </div>
+ 
+ <!-- ===== BANNER BOTTOM (glass / backdrop-blur over the hero) ===== -->
+    <div class="-mt-20 grid grid-cols-2 lg:grid-cols-4 w-full px-4 lg:px-[77px] py-6 gap-y-6 border-t border-white/[0.16] backdrop-blur-xl bg-gradient-to-r from-[rgba(11,37,69,0.92)] via-[rgba(11,37,69,0.7)] to-[rgba(11,37,69,0.35)]">
+ 
+      <!-- Stat 1 -->
+      <div class="flex items-center gap-2 md:gap-3 lg:gap-4 px-2 md:px-2 lg:px-3">
+        <img src="assets/images/accounting-firm-banner-bottom-1.svg" class="img-fluid md:w-[64px] sm:w-[45px] w-[35px]" alt="banner-bottom">
+        <div class="flex flex-col md:gap-1 gap-0.5">
+          <span class="text-xs lg:text-base text-[#fff]">Accounting firm sites built</span>
+          <span class="text-xl lg:text-[32px] font-normal text-white">50+</span>
+        </div>
+      </div>
+ 
+      <!-- Stat 2 -->
+      <div class="flex items-center gap-2 md:gap-3 lg:gap-4 px-2 md:px-2 lg:px-3">
+        <img src="assets/images/accounting-firm-banner-bottom-2.svg" class="img-fluid md:w-[64px] sm:w-[45px] w-[35px]" alt="banner-bottom">
+        <div class="flex flex-col md:gap-1 gap-0.5">
+          <span class="text-xs lg:text-base text-[#fff]">Discovery to launch</span>
+          <span class="text-xl lg:text-[32px] font-normal text-white">14 DAYS</span>
+        </div>
+      </div>
+ 
+      <!-- Stat 3 -->
+      <div class="flex items-center gap-2 md:gap-3 lg:gap-4 px-2 md:px-2 lg:px-3">
+        <img src="assets/images/accounting-firm-banner-bottom-3.svg" class="img-fluid md:w-[64px] sm:w-[45px] w-[35px]" alt="banner-bottom">
+        <div class="flex flex-col md:gap-1 gap-0.5">
+          <span class="text-xs lg:text-base text-[#fff]">Fixed price</span>
+          <span class="text-xl lg:text-[32px] font-normal text-white">$999</span>
+        </div>
+      </div>
+ 
+      <!-- Stat 4 -->
+      <div class="flex items-center gap-2 md:gap-3 lg:gap-4 px-2 md:px-2 lg:px-3">
+       <img src="assets/images/accounting-firm-banner-bottom-4.svg" class="img-fluid md:w-[64px] sm:w-[45px] w-[35px]" alt="banner-bottom">
+        <div class="flex flex-col md:gap-1 gap-0.5">
+          <span class="text-xs lg:text-base text-[#fff]">Post-launch support</span>
+          <span class="text-xl lg:text-[32px] font-normal text-white">30 DAYS</span>
+        </div>
+      </div>
+ 
+    </div>
+ 
+        </div>
+    </div>
+    <!-- HERO SECTION end-->
+
+
+
+
+
+    <!-- lose qualified start-->
+     <section class="lose-qualified section-padding bg-[#F0F6FB]">
+        <div class="container">
+          <div class="accounting-firm-title max-w-[736px] w-full mx-auto text-center md:mb-12 sm:mb-10 mb-8">
+            <h2 class="lg:text-[56px] md:text-5xl sm:text-4xl text-4xl leading-[130%] text-[#042C53] ">Most accounting firm websites quietly <span class="title-span"> lose qualified </span> prospects</h2>
+          </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-4 lg:gap-8">
+ 
+        <!-- Card 1 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="assets/images/lose-qualified-1.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">No service tier transparency</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Prospects can't tell if your firm is built for their size. A $400K-revenue dental practice and a $50M manufacturing company need different services, but most accounting sites describe everything as 'comprehensive solutions.' Tiered pricing pages (or at minimum 'starting at' ranges by client size) cut tire-kicker inquiries by half.</p>
+        </div>
+ 
+        <!-- Card 2 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="assets/images/lose-qualified-2.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Credentials hidden or missing entirely</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">CPA license number, EA designation, state of admission, MAcc or specialty certifications — these are the single most important trust signals for an accounting prospect. We see them buried in a partner bio paragraph or missing entirely on roughly 60% of the firm sites we audit.</p>
+        </div>
+ 
+        <!-- Card 3 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="assets/images/lose-qualified-3.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Generic Services page where industries live</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">A CPA who works with restaurants, dental practices, and SaaS companies needs three separate landing pages — each targeting that industry's specific search behavior. One 'Services' page collapses all of that intent and ranks for none of it.</p>
+        </div>
+ 
+        <!-- Card 4 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="assets/images/lose-qualified-4.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">No secure document portal visibility</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Prospects who've been burned by an email-attachment-based firm look for ShareFile, SmartVault, or TaxDome integration before they reach out. If your site doesn't mention the secure portal, prospects assume you don't have one and call the firm that does.</p>
+        </div>
+ 
+        <!-- Card 5 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                  <img src="assets/images/lose-qualified-5.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Tax deadline panic without a countdown</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">January through April is 60–70% of annual lead volume for tax-heavy firms. A visible deadline countdown widget (January 31 W-2/1099 deadline, March 15 S-corp deadline, April 15 individual deadline) drives seasonal urgency that most firm sites leave on the table.</p>
+        </div>
+ 
+        <!-- Card 6 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="assets/images/lose-qualified-6.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">No client onboarding pathway visible</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">First-time prospects don't know what to expect. 'What happens after I fill out the consultation form?' is the unspoken question that kills most form submissions. A visible 4-step onboarding ('Discovery call → Engagement letter → Document collection → First deliverable') answers it.</p>
+        </div>
+ 
+        <!-- Card 7 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="assets/images/lose-qualified-7.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Slow consultation response time</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Internal data from 12 firms we've worked with: prospects who don't hear back within 4 hours of submitting a contact form convert at 1/3 the rate. Most accounting sites send a generic auto-response and the partner doesn't see the email until Tuesday morning. CallRail with text-back integration fixes this.</p>
+        </div>
+ 
+        <!-- Card 8 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                   <img src="assets/images/lose-qualified-8.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Generic blog full of 'Tax Tip Tuesday' content</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Every accounting blog has the same '5 tax tips for small business owners' post. None of them rank. SEO content for accountants has to target real questions ('How does an S-corp pay an owner-employee?' 'What expenses can I deduct as a 1099 contractor in California?') with depth no generalist blog has.</p>
+        </div>
+ 
+      </div>
+
+        </div>
+     </section>
+    <!-- lose qualified end-->
+
+
+
+
+    <!-- everything include-->
+      <section class="section-padding bg-[#042C53]">
+    <div class="container">
+ 
+      <!-- Heading block -->
+      <div class="text-center">
+        <span class="inline-block rounded-full bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] text-[#042C53] text-sm sm:text-base font-semibold uppercase tracking-wide px-4 py-1.5">Everything included</span>
+      
+          <div class="accounting-firm-title max-w-[736px] w-full mx-auto text-center md:mb-12 sm:mb-10 mb-8">
+            <h2 class="lg:text-[56px] md:text-5xl sm:text-4xl text-4xl leading-[130%] text-[#fff] ">Separate costs vs our all-in price</h2>
+            <p class="mt-4 text-sm lg:text-base leading-[150%] text-[#A3C1DE]">Six separate services from six providers, or one package, one team, one fixed price. Every deliverable built specifically for how prospects research and select an accounting firm.</p>
+          </div>
+
+      </div>
+ 
+      <!-- List -->
+      <div class="mt-12 lg:mt-16">
+ 
+        <!-- Row 1 -->
+        <div class="flex items-center gap-4 sm:gap-6 lg:py-8 lg:px-8  sm:py-6 sm:px-4 px-2 py-3 border-t border-b border-[#17436E]">
+          <img class="w-11 h-11 sm:w-12 sm:h-12 lg:w-16 lg:h-16 shrink-0 object-contain" src="assets/images/accounting-firm-includes-1.svg" alt="">
+          <div class="w-px self-stretch bg-[#3D6994] shrink-0"></div>
+          <div class="flex-1 min-w-0">
+            <h3 class="text-xl sm:text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Logo + brand identity</h3>
+            <p class="mt-2 text-sm lg:text-base leading-[150%] text-[#81A7CC]">Logo, palette, typography, brand kit. Professional services aesthetic — credible without looking dated.</p>
+          </div>
+          <div class="text-right shrink-0">
+            <p class="text-xs sm:text-sm text-[#81A7CC] font-coss-text">Elsewhere</p>
+            <p class="text-sm sm:text-base text-[#DDEEFF] font-coss-text">$400+</p>
+          </div>
+        </div>
+ 
+        <!-- Row 2 -->
+        <div class="flex items-center gap-4 sm:gap-6 lg:py-8 lg:px-8  sm:py-6 sm:px-4 px-2 py-3 border-b border-[#17436E]">
+          <img class="w-11 h-11 sm:w-12 sm:h-12 lg:w-16 lg:h-16 shrink-0 object-contain" src="assets/images/accounting-firm-includes-2.svg"  alt="">
+          <div class="w-px self-stretch bg-[#3D6994] shrink-0"></div>
+          <div class="flex-1 min-w-0">
+            <h3 class="text-xl sm:text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Custom 7-page accounting firm website</h3>
+            <p class="mt-2 text-sm lg:text-base leading-[150%] text-[#81A7CC]">Home, About, Services tiers, Industries served, Team, Resources, Contact. Mobile-first, fast load.</p>
+          </div>
+          <div class="text-right shrink-0">
+            <p class="text-xs sm:text-sm text-[#81A7CC] font-coss-text">Elsewhere</p>
+            <p class="text-sm sm:text-base text-[#DDEEFF] font-coss-text">$1,800+</p>
+          </div>
+        </div>
+ 
+        <!-- Row 3 -->
+        <div class="flex items-center gap-4 sm:gap-6 lg:py-8 lg:px-8 sm:px-6 sm:py-6 sm:px-4 py-4 px-2 py-3 border-b border-[#17436E]">
+          <img class="w-11 h-11 sm:w-12 sm:h-12 lg:w-16 lg:h-16 shrink-0 object-contain" src="assets/images/accounting-firm-includes-3.svg" alt="">
+          <div class="w-px self-stretch bg-[#3D6994] shrink-0"></div>
+          <div class="flex-1 min-w-0">
+            <h3 class="text-xl sm:text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">SEO content with real keyword research</h3>
+            <p class="mt-2 text-sm lg:text-base leading-[150%] text-[#81A7CC]">Page copy targeting practice-area + industry + city searches. Not 'Tax Tip Tuesday' filler.</p>
+          </div>
+          <div class="text-right shrink-0">
+            <p class="text-xs sm:text-sm text-[#81A7CC] font-coss-text">Elsewhere</p>
+            <p class="text-sm sm:text-base text-[#DDEEFF] font-coss-text">$800+</p>
+          </div>
+        </div>
+ 
+        <!-- Row 4 -->
+        <div class="flex items-center gap-4 sm:gap-6 lg:py-8 lg:px-8 sm:px-6 sm:py-6 sm:px-4 py-4 px-2 py-3 border-b border-[#17436E]">
+          <img class="w-11 h-11 sm:w-12 sm:h-12 lg:w-16 lg:h-16 shrink-0 object-contain" src="assets/images/accounting-firm-includes-4.svg" alt="">
+          <div class="w-px self-stretch bg-[#3D6994] shrink-0"></div>
+          <div class="flex-1 min-w-0">
+            <h3 class="text-xl sm:text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Technical on-page SEO setup</h3>
+            <p class="mt-2 text-sm lg:text-base leading-[150%] text-[#81A7CC]">AccountingService and ProfessionalService schema, meta titles per page, internal linking, sitemap, Search Console.</p>
+          </div>
+          <div class="text-right shrink-0">
+            <p class="text-xs sm:text-sm text-[#81A7CC] font-coss-text">Elsewhere</p>
+            <p class="text-sm sm:text-base text-[#DDEEFF] font-coss-text">$400+</p>
+          </div>
+        </div>
+ 
+        <!-- Row 5 -->
+        <div class="flex items-center gap-4 sm:gap-6 lg:py-8 lg:px-8 sm:px-6 sm:py-6 sm:px-4 py-4 px-2 py-3 border-b border-[#17436E]">
+          <img class="w-11 h-11 sm:w-12 sm:h-12 lg:w-16 lg:h-16 shrink-0 object-contain" src="assets/images/accounting-firm-includes-5.svg" alt="">
+          <div class="w-px self-stretch bg-[#3D6994] shrink-0"></div>
+          <div class="flex-1 min-w-0">
+            <h3 class="text-xl sm:text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Google Business Profile optimization</h3>
+            <p class="mt-2 text-sm lg:text-base leading-[150%] text-[#81A7CC]">Categories, services, photos, NAP cleanup, posts setup. Critical for 'CPA near me' searches.</p>
+          </div>
+          <div class="text-right shrink-0">
+            <p class="text-xs sm:text-sm text-[#81A7CC] font-coss-text">Elsewhere</p>
+            <p class="text-sm sm:text-base text-[#DDEEFF] font-coss-text">$500+</p>
+          </div>
+        </div>
+ 
+        <!-- Row 6 -->
+        <div class="flex items-center gap-4 sm:gap-6 lg:py-8 lg:px-8 sm:px-6 sm:py-6 sm:px-4 py-4 px-2 py-3 border-b border-[#17436E]">
+          <img class="w-11 h-11 sm:w-12 sm:h-12 lg:w-16 lg:h-16 shrink-0 object-contain" src="assets/images/accounting-firm-includes-6.svg" alt="">
+          <div class="w-px self-stretch bg-[#3D6994] shrink-0"></div>
+          <div class="flex-1 min-w-0">
+            <h3 class="text-xl sm:text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">30 days post-launch support</h3>
+            <p class="mt-2 text-sm lg:text-base leading-[150%] text-[#81A7CC]">Bug fixes, content updates, CMS training, A/B test of consultation CTA placement.</p>
+          </div>
+          <div class="text-right shrink-0">
+            <p class="text-xs sm:text-sm text-[#81A7CC] font-coss-text">Elsewhere</p>
+            <p class="text-sm sm:text-base text-[#DDEEFF] font-coss-text">$400+</p>
+          </div>
+        </div>
+ 
+      </div>
+ 
+      <!-- Total elsewhere -->
+      <div class="mt-8 flex items-center gap-4 sm:gap-6 rounded-[32px] bg-[#0F3860] px-6 sm:px-8 py-7">
+        <img class="w-11 h-11 sm:w-12 sm:h-12 lg:w-16 lg:h-16 shrink-0 object-contain" src="assets/images/accounting-firm-includes-7.svg"  alt="">
+        <div class="w-px self-stretch bg-[#3D6994] shrink-0"></div>
+        <h3 class="flex-1 text-xl sm:text-2xl lg:text-[32px] font-normal text-[#DDEEFF]">Total elsewhere</h3>
+        <p class="text-2xl sm:text-3xl lg:text-[32px] font-normal text-[#DDEEFF] shrink-0">$4,200</p>
+      </div>
+ 
+      <!-- Pixxen pack (highlighted) -->
+      <div class="mt-0 flex items-center gap-4 sm:gap-6 rounded-[32px] bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] px-6 sm:px-8 py-7">
+        <img class="w-11 h-11 sm:w-12 sm:h-12 lg:w-16 lg:h-16 shrink-0 object-contain" src="assets/images/accounting-firm-includes-8.svg" alt="">
+        <div class="w-px self-stretch bg-[#042C53] shrink-0"></div>
+        <h3 class="flex-1 text-xl sm:text-2xl lg:text-[32px] font-normal text-[#042C53]">Pixxen accounting pack</h3>
+        <p class="text-2xl sm:text-3xl lg:text-[32px] font-semibold text-[#042C53] shrink-0">$999</p>
+      </div>
+ 
+    </div>
+  </section>
+    <!-- everything include end-->
+
+
+
+    <!-- lose qualified start-->
+     <section class="lose-qualified section-padding bg-[#F0F6FB]">
+        <div class="container">
+          <div class="accounting-firm-title max-w-[736px] w-full mx-auto text-center md:mb-12 sm:mb-10 mb-8">
+            <h2 class="lg:text-[56px] md:text-5xl sm:text-4xl text-4xl leading-[130%] text-[#042C53] ">Nine essential <span class="title-span"> features </span> CPAs &amp; bookkeepers actually use</h2>
+          </div>
+ 
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-4 lg:gap-8">
+ 
+        <!-- Card 1 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="assets/images/accounting-firm-feature-1.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Service tier comparison built into the homepage</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Bronze, Silver, Gold (or starter/growth/enterprise) tier pricing with what's included at each level. Filters out tire-kickers, qualifies inquiries, and shortcuts the 'are you the right size for us?' question that kills most discovery calls.</p>
+        </div>
+ 
+        <!-- Card 2 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="assets/images/accounting-firm-feature-2.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Credentials display in the header</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">CPA license number, state of admission, EA designation, AICPA membership, specialty certifications (CFE, CMA, MAcc). Visible in the header or hero, not buried three pages deep where prospects never look.</p>
+        </div>
+ 
+        <!-- Card 3 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="assets/images/accounting-firm-feature-3.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Secure client portal link prominently displayed</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">ShareFile, SmartVault, TaxDome, Canopy — whatever portal you use, the link lives in the header. Signals security to new prospects and shortcuts the login flow for existing clients.</p>
+        </div>
+ 
+        <!-- Card 4 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="assets/images/accounting-firm-feature-4.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Industry-specific landing pages</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Restaurants, dental practices, medical, real estate investors, nonprofits, SaaS — each industry gets its own page targeting that industry's search behavior, pain points, and regulatory context (R&D credits, 1099 issues, multi-state nexus, 990 compliance).</p>
+        </div>
+ 
+        <!-- Card 5 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                  <img src="assets/images/accounting-firm-feature-5.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Tax deadline countdown widget</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Visible countdown to next major deadline (January 31, March 15, April 15, June 15 estimated, September 15 extended S-corp/partnership, October 15 extended individual). Drives the 'I should book this consultation now' urgency.</p>
+        </div>
+ 
+        <!-- Card 6 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="assets/images/accounting-firm-feature-6.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Free calculator or assessment lead magnet</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Withholding calculator, estimated tax calculator, entity structure comparison, or QuickBooks health check — a free tool that captures the email of a prospect who's researching the problem before they look for a firm.</p>
+        </div>
+ 
+        <!-- Card 7 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                    <img src="assets/images/accounting-firm-feature-7.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Consultation intake questionnaire on the form</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Revenue range, entity type, current accountant status, biggest current pain — captured at the form stage so the first call is real work, not 'tell me about your business' over again. Higher friction, better leads.</p>
+        </div>
+ 
+        <!-- Card 8 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+                   <img src="assets/images/accounting-firm-feature-8.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="lose qualified">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Onboarding pathway visualization</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">A 4-step graphic showing what happens after the consultation request — engagement letter, document collection, kickoff meeting, first deliverable. Answers the silent objection that kills form submissions.</p>
+        </div>
+ 
+      </div>
+ 
+        </div>
+     </section>
+    <!-- lose qualified end-->
+
+
+
+
+    <!-- specification start-->
+    <section class="section-padding bg-[#042C53]">
+        <div class="container">
+  <div class="flex flex-col lg:flex-row gap-10 lg:gap-16">
+ 
+      <!-- LEFT: heading (sticky on desktop) -->
+      <div class="lg:w-1/3 lg:sticky lg:top-12 self-start">
+        <span class="inline-block rounded-full bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] text-[#042C53] text-sm sm:text-base font-bold uppercase px-4 py-1.5">8 specializations, one playbook</span>
+        <h2 class="mt-6 text-[32px] sm:text-[40px] lg:text-5xl font-normal leading-[120%] text-white">Website design built around your specific accounting niche</h2>
+        <p class="mt-5 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">A boutique CPA serving SaaS founders and a forensic accountant testifying in commercial litigation sell entirely different services to entirely different buyers. We design for the niche.</p>
+      </div>
+ 
+      <!-- RIGHT: 2-column card grid -->
+      <div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+ 
+        <!-- Card -->
+        <div class="rounded-[32px] bg-[#0F3860] p-6 sm:p-8 flex flex-col gap-8">
+ 
+          <!-- image cluster (swap big/small images with your own) -->
+          <div class="relative w-full">
+          <img src="assets/images/specification-account-firm-1.webp" class="img-fluid" alt="specification">
+          </div>
+ 
+          <!-- text -->
+          <div>
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">CPA firm website</h3>
+            <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">Service tier pricing, industry-specific landing pages, credentials in the header. Tax season prominent January–April, advisory and planning content year-round.</p>
+          </div>
+ 
+        </div>
+ 
+        <!-- Card -->
+        <div class="rounded-[32px] bg-[#0F3860] p-6 sm:p-8 flex flex-col gap-8">
+ 
+          <!-- image cluster (swap big/small images with your own) -->
+          <div class="relative w-full">
+            <img src="assets/images/specification-account-firm-2.webp" class="img-fluid" alt="specification">
+          </div>
+ 
+          <!-- text -->
+          <div>
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Bookkeeping service website</h3>
+            <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">Monthly pricing tiers by revenue band ($0–250K, $250K–1M, $1M+). Software stack visible (QuickBooks, Xero). Small business positioning, not enterprise.</p>
+          </div>
+ 
+        </div>
+ 
+        <!-- Card -->
+        <div class="rounded-[32px] bg-[#0F3860] p-6 sm:p-8 flex flex-col gap-8">
+ 
+          <!-- image cluster (swap big/small images with your own) -->
+          <div class="relative w-full">
+            <img src="assets/images/specification-account-firm-3.webp" class="img-fluid" alt="specification">
+          </div>
+ 
+          <!-- text -->
+          <div>
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Tax preparation website</h3>
+            <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">Individual vs business split, deadline countdown above the fold, fee transparency, & an upload-your-prior-return intake form to skip the discovery call entirely for simple returns.</p>
+          </div>
+ 
+        </div>
+ 
+        <!-- Card -->
+        <div class="rounded-[32px] bg-[#0F3860] p-6 sm:p-8 flex flex-col gap-8">
+ 
+          <!-- image cluster (swap big/small images with your own) -->
+          <div class="relative w-full">
+             <img src="assets/images/specification-account-firm-4.webp" class="img-fluid" alt="specification">
+          </div>
+ 
+          <!-- text -->
+          <div>
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Forensic accounting website</h3>
+            <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">Case study heavy, expert witness credentials, B2B and legal-facing positioning. Different audience — attorneys and corporate counsel, not small business owners.</p>
+          </div>
+ 
+        </div>
+ 
+        <!-- Card -->
+        <div class="rounded-[32px] bg-[#0F3860] p-6 sm:p-8 flex flex-col gap-8">
+ 
+          <!-- image cluster (swap big/small images with your own) -->
+          <div class="relative w-full">
+            <img src="assets/images/specification-account-firm-5.webp" class="img-fluid" alt="specification">
+          </div>
+ 
+          <!-- text -->
+          <div>
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Estate and trust accounting</h3>
+            <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">Fiduciary accounting, estate & trust services with multi-generational wealth support, including 706, 709 filings and foundation accounting.</p>
+          </div>
+ 
+        </div>
+ 
+        <!-- Card -->
+        <div class="rounded-[32px] bg-[#0F3860] p-6 sm:p-8 flex flex-col gap-8">
+ 
+          <!-- image cluster (swap big/small images with your own) -->
+          <div class="relative w-full">
+              <img src="assets/images/specification-account-firm-6.webp" class="img-fluid" alt="specification">
+          </div>
+ 
+          <!-- text -->
+          <div>
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Nonprofit accounting website</h3>
+            <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">Form 990, grant compliance, and sector-specific accounting for faith-based, education, social services, and arts organizations.</p>
+          </div>
+ 
+        </div>
+ 
+        <!-- Card -->
+        <div class="rounded-[32px] bg-[#0F3860] p-6 sm:p-8 flex flex-col gap-8">
+ 
+          <!-- image cluster (swap big/small images with your own) -->
+          <div class="relative w-full">
+            <img src="assets/images/specification-account-firm-7.webp" class="img-fluid" alt="specification">
+          </div>
+ 
+          <!-- text -->
+          <div>
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Construction accounting</h3>
+            <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">Job costing, WIP reporting, AIA billing, certified payroll, surety bonding support. Industry vocabulary throughout — signals competence to GCs and subs immediately.</p>
+          </div>
+ 
+        </div>
+ 
+        <!-- Card -->
+        <div class="rounded-[32px] bg-[#0F3860] p-6 sm:p-8 flex flex-col gap-8">
+ 
+          <!-- image cluster (swap big/small images with your own) -->
+          <div class="relative w-full">
+             <img src="assets/images/specification-account-firm-8.webp" class="img-fluid" alt="specification">
+          </div>
+ 
+          <!-- text -->
+          <div>
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF]">Virtual CFO website</h3>
+            <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">Remote-first positioning with dashboard previews for scaling businesses, paired with FP&A tools for forward-looking reporting.</p>
+          </div>
+ 
+        </div>
+ 
+      </div>
+    </div>
+        </div>
+  
+  </section>
+    <!-- specification end-->
+
+
+
+
+    <section class="md:pt-16 sm:pt-10 pt-8">
+   <div class="container">
+     <div class="grid md:grid-cols-2 items-end lg:gap-8 gap-4">
+ 
+      <!-- ===== LEFT (50%) ===== -->
+      <div class="mb:pb-24 sm:pb-16 pb-8">
+ 
+        <!-- Title -->
+        <h1 class="text-[34px] sm:text-5xl lg:text-[56px] leading-[120%] font-normal text-[#042C53]">
+          Accounting firm website design in your city, optimized for
+          <span class="bg-[linear-gradient(138deg,_#D0EDD1_14.88%,_#EBEDC7_84.21%)] text-[#009130] rounded-lg px-2">local search</span>
+          &amp; consultation requests.
+        </h1>
+ 
+        <!-- Description -->
+        <p class="mt-6 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">
+          Most accounting clients want a local firm — proximity matters for in-person reviews and for state-tax knowledge. We optimize every site for your city, your state, and the specific industries you serve locally.
+        </p>
+ 
+        <!-- City badges -->
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">New York City</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Los Angeles</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Chicago</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Houston</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Phoenix</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Philadelphia</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">San Antonio</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Dallas</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Austin</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Miami</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Atlanta</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Boston</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Seattle</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Denver</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">San Francisco</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Minneapolis</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Raleigh</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Charlotte</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Nashville</span>
+          <span class="rounded-full border border-[#CFDAE5] text-[#566D84] sm:text-base text-sm sm:px-4 px-3 sm:py-1.5 py-1 transition-colors hover:border-[#50C878] cursor-default font-coss-text">Toronto</span>
+        </div>
+ 
+        <!-- Second description -->
+        <p class="mt-8 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">
+          Don't see your city? We work with accounting firms across all 50 states, Canada, and the UK. State-specific tax content adjusts per market — California needs Franchise Tax Board content, NY needs MCTMT and NYC unincorporated business tax, Texas needs franchise tax. Every site is optimized for your state's specific tax regime.
+        </p>
+ 
+        <!-- Buttons -->
+        <div class="mt-8 flex flex-col sm:flex-row sm:gap-4 gap-2 flex-wrap">
+ 
+          <!-- Primary -->
+          <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] transition-all duration-200">
+            <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+              <span class="t-up text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+              <span class="t-down text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+            </div>
+          </a>
+ 
+          <!-- Secondary (outline) -->
+          <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 border border-[#042C53] bg-transparent transition-all duration-200">
+            <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+              <span class="t-up text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+              <span class="t-down text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+            </div>
+          </a>
+ 
+        </div>
+ 
+      </div>
+ 
+      <!-- ===== RIGHT (50%) - image ===== -->
+      <div class="">
+        <img class="block w-full object-contain select-none pointer-events-none"
+             src="assets/images/accounting-form-local-search.webp" alt="Local accounting firm consultation">
+      </div>
+ 
+    </div>
+   </div>
+  </section>
+
+
+
+  <!-- process  -->
+
+  <section class="section-padding bg-[#042C53]">
+    <div class="container">
+           <div class="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-16">
+ 
+      <!-- ===== LEFT (50%) ===== -->
+      <div class="w-full lg:w-1/2">
+        <h2 class="text-[32px] sm:text-5xl lg:text-[56px] leading-[120%] font-normal text-white">From discovery to launch in 14 days</h2>
+        <p class="mt-6 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">
+          Most accounting marketing agencies take 60–90 days for the same scope. We don't, because the package is productized — same caliber of work, less margin per project, faster turnaround.
+        </p>
+ 
+        <!-- Buttons -->
+        <div class="mt-8 flex flex-col sm:flex-row sm:gap-4 gap-2 flex-wrap">
+          <!-- Primary -->
+          <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] transition-all duration-200">
+            <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+              <span class="t-up text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+              <span class="t-down text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+            </div>
+          </a>
+          <!-- Secondary (outline) -->
+          <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 border border-white bg-transparent transition-all duration-200">
+            <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+              <span class="t-up text-white leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+              <span class="t-down text-white leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+            </div>
+          </a>
+        </div>
+      </div>
+ 
+      <!-- ===== RIGHT (50%) - process cards ===== -->
+      <div class="w-full lg:w-1/2 flex flex-col gap-1">
+ 
+        <!-- Card 1 (active) -->
+        <div class="group rounded-[32px] p-6 sm:p-8 flex items-center gap-5 sm:gap-6 transition-all duration-300 bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]">
+          <span class="shrink-0 w-10 text-center text-[44px] sm:text-[56px] leading-[130%] font-normal text-[#042C53]">1</span>
+          <div class="pl-5 sm:pl-6 border-l border-[#042C53]/25">
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Discovery</h3>
+            <p class="mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#042C53] font-coss-text">90-minute kickoff. Service tier audit. Practice management stack review. Competitor analysis of three firms outranking you.</p>
+          </div>
+        </div>
+ 
+        <!-- Card 2 -->
+        <div class="group rounded-[32px] p-6 sm:p-8 flex items-center gap-5 sm:gap-6 transition-all duration-300 bg-[#0F3860] hover:bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]">
+          <span class="shrink-0 w-10 text-center text-[44px] sm:text-[56px] leading-[130%] font-normal text-[#9FD34A] group-hover:text-[#042C53] transition-colors duration-300">2</span>
+          <div class="pl-5 sm:pl-6 border-l border-[#3D6994] group-hover:border-[#042C53]/25 transition-colors duration-300">
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF] group-hover:text-[#042C53] transition-colors duration-300">Brand + design</h3>
+            <p class="mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#81A7CC] font-coss-text group-hover:text-[#042C53]  transition-colors duration-300">Logo, palette, typography. Wireframes and design comps. One round of revision built in.</p>
+          </div>
+        </div>
+ 
+        <!-- Card 3 -->
+        <div class="group rounded-[32px] p-6 sm:p-8 flex items-center gap-5 sm:gap-6 transition-all duration-300 bg-[#0F3860] hover:bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]">
+          <span class="shrink-0 w-10 text-center text-[44px] sm:text-[56px] leading-[130%] font-normal text-[#9FD34A] group-hover:text-[#042C53] transition-colors duration-300">3</span>
+          <div class="pl-5 sm:pl-6 border-l border-[#3D6994] group-hover:border-[#042C53]/25 transition-colors duration-300">
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF] group-hover:text-[#042C53] transition-colors duration-300">Build + SEO</h3>
+            <p class="mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#81A7CC] font-coss-text group-hover:text-[#042C53] transition-colors duration-300">Mobile-first build. SEO content per service. Schema markup. Portal link integration.</p>
+          </div>
+        </div>
+ 
+        <!-- Card 4 -->
+        <div class="group rounded-[32px] p-6 sm:p-8 flex items-center gap-5 sm:gap-6 transition-all duration-300 bg-[#0F3860] hover:bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]">
+          <span class="shrink-0 w-10 text-center text-[44px] sm:text-[56px] leading-[130%] font-normal text-[#9FD34A] group-hover:text-[#042C53] transition-colors duration-300">4</span>
+          <div class="pl-5 sm:pl-6 border-l border-[#3D6994] group-hover:border-[#042C53]/25 transition-colors duration-300">
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF] group-hover:text-[#042C53] transition-colors duration-300">Launch + GBP</h3>
+            <p class="mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#81A7CC] font-coss-text group-hover:text-[#042C53] transition-colors duration-300">DNS, Search Console verification, GBP rebuild, CMS training, handoff.</p>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <!-- real accounting firm  -->
+
+   <section class="section-padding bg-[#F0F6FB]">
+    <div class="container">
+ 
+      <!-- Heading -->
+      <div class="text-center max-w-[736px] mx-auto mb-12 lg:mb-16">
+        <h2 class="text-[34px] sm:text-5xl lg:text-[56px] leading-[120%] font-normal text-[#042C53]">Real accounting firm <span class="bg-[linear-gradient(138deg,_#D0EDD1_14.88%,_#EBEDC7_84.21%)] text-[#009130] rounded-lg px-2">websites</span> we've built and launched</h2>
+        <p class="mt-5 text-sm lg:text-base leading-[150%] text-[#566D84] font-coss-text mx-auto">Click any case study for the redesign rationale, the SEO keyword targets, and the consultation request volume after launch.</p>
+      </div>
+ 
+      <!-- Cards -->
+      <div class="flex flex-col gap-4 lg:gap-6">
+ 
+      <div class="flex flex-col lg:flex-row items-stretch gap-8 lg:gap-12 rounded-[32px] border-2 border-white bg-white p-6 sm:p-10 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300">
+        <!-- image -->
+        <div class="w-full lg:w-1/2 relative flex items-center justify-center min-h-[280px]">
+         <img src="assets/images/real-accounting-firm-website-1.webp" class="img-fluid" alt="realaccounting">
+        </div>
+        <!-- content -->
+        <div class="w-full lg:w-1/2 flex flex-col">
+          <span class="self-start rounded-full bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] text-[#042C53] text-sm sm:text-base font-normal uppercase px-3 py-1">SaaS CPA</span>
+          <h3 class="mt-5 text-2xl lg:text-[32px] font-normal leading-[130%] text-[#042C53]">Northbridge CPA website design</h3>
+          <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Boutique CPA case study demonstrates how strategic SEO optimization and conversion-focused redesign improved search visibility, increased qualified consultation requests, and strengthened SaaS CPA positioning for higher-value client acquisition.</p>
+          <div class="mt-auto pt-10">
+            <div class="w-28 h-px bg-[#042C53] mb-5"></div>
+            <div class="flex flex-wrap gap-x-10 gap-y-5">
+          <div>
+            <p class="text-sm sm:text-base text-[#042C53] ">Consult requests</p>
+            <p class="mt-1 text-lg sm:text-xl lg:text-2xl text-[#042C53]">+184%</p>
+          </div>
+          <div>
+            <p class= "sm:text-base text-sm font-coss-text text-[#042C53] ">Avg engagement</p>
+            <p class="mt-1 text-lg sm:text-xl lg:text-2xl text-[#042C53]">$8.4K → $14.2K</p>
+          </div>
+          <div>
+            <p class= "sm:text-base text-sm font-coss-text text-[#042C53] ">Year</p>
+            <p class="mt-1 text-lg sm:text-xl lg:text-2xl text-[#042C53]">2025</p>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="flex flex-col lg:flex-row-reverse items-stretch gap-8 lg:gap-12 rounded-[32px] border-2 border-white bg-white p-6 sm:p-10 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300">
+        <!-- image -->
+       <div class="w-full lg:w-1/2 relative flex items-center justify-center min-h-[280px]">
+         <img src="assets/images/real-accounting-firm-website-2.webp" class="img-fluid" alt="realaccounting">
+        </div>
+        <!-- content -->
+        <div class="w-full lg:w-1/2 flex flex-col">
+          <span class="self-start rounded-full bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] text-[#042C53] text-sm sm:text-base font-normal uppercase px-3 py-1">Bookkeeping</span>
+          <h3 class="mt-5 text-2xl lg:text-[32px] font-normal leading-[130%] text-[#042C53]">Ledger Method Co. website design</h3>
+          <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Ledger Method Co. case study shows how targeted SEO improvements and Google Business Profile optimization increased monthly inquiries, boosted local search ranking, and moved visibility from page four to the local 3-pack.</p>
+          <div class="mt-auto pt-10">
+            <div class="w-28 h-px bg-[#042C53] mb-5"></div>
+            <div class="flex flex-wrap gap-x-10 gap-y-5">
+          <div>
+            <p class= "sm:text-base text-sm font-coss-text text-[#042C53] ">Monthly inquiries</p>
+            <p class="mt-1 text-lg sm:text-xl lg:text-2xl text-[#042C53]">6 → 41</p>
+          </div>
+          <div>
+            <p class= "sm:text-base text-sm font-coss-text text-[#042C53] ">QuickBooks ranking</p>
+            <p class="mt-1 text-lg sm:text-xl lg:text-2xl text-[#042C53]">p4 → local 3-pack</p>
+          </div>
+          <div>
+            <p class= "sm:text-base text-sm font-coss-text text-[#042C53] ">Year</p>
+            <p class="mt-1 text-lg sm:text-xl lg:text-2xl text-[#042C53]">2025</p>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="flex flex-col lg:flex-row items-stretch gap-8 lg:gap-12 rounded-[32px] border-2 border-white bg-white p-6 sm:p-10 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300">
+        <!-- image -->
+         <div class="w-full lg:w-1/2 relative flex items-center justify-center min-h-[280px]">
+         <img src="assets/images/real-accounting-firm-website-3.webp" class="img-fluid" alt="realaccounting">
+        </div>
+        <!-- content -->
+        <div class="w-full lg:w-1/2 flex flex-col">
+          <span class="self-start rounded-full bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] text-[#042C53] text-sm sm:text-base font-normal uppercase px-3 py-1">Construction</span>
+          <h3 class="mt-5 text-2xl lg:text-[32px] font-normal leading-[130%] text-[#042C53]">Crawford & Pratt website design</h3>
+          <p class="mt-4 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Construction CPA case study highlights how industry-specific landing pages and conversion-driven redesign attracted more general contractor clients and significantly increased average annual engagement value within six months of launch.</p>
+          <div class="mt-auto pt-10">
+            <div class="w-28 h-px bg-[#042C53] mb-5"></div>
+            <div class="flex flex-wrap gap-x-10 gap-y-5">
+          <div>
+            <p class= "sm:text-base text-sm font-coss-text text-[#042C53] ">GC clients added</p>
+            <p class="mt-1 text-lg sm:text-xl lg:text-2xl text-[#042C53]">9 in 6 months</p>
+          </div>
+          <div>
+            <p class= "sm:text-base text-sm font-coss-text text-[#042C53] ">Avg new engagement</p>
+            <p class="mt-1 text-lg sm:text-xl lg:text-2xl text-[#042C53]">$24K/year</p>
+          </div>
+          <div>
+            <p class= "sm:text-base text-sm font-coss-text text-[#042C53] ">Year</p>
+            <p class="mt-1 text-lg sm:text-xl lg:text-2xl text-[#042C53]">2024</p>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- platform and intregration   -->
+
+  <section class="section-padding bg-[#042C53]">
+    <div class="container">
+ 
+      <!-- Heading -->
+      <div class="text-center max-w-[820px] mx-auto mb-12 lg:mb-16">
+        <span class="inline-block rounded-full bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] text-[#042C53] text-sm sm:text-base font-normal uppercase tracking-wide px-4 py-1.5 font-coss-text">Platform + integrations</span>
+        <h2 class="mt-5 text-[34px] sm:text-5xl lg:text-[56px] leading-[120%] font-normal text-white">The right platform for modern accounting firms to grow.</h2>
+        <p class="mt-5 text-sm lg:text-base leading-[150%] text-[#A3C1DE] max-w-[660px] mx-auto font-coss-text">We default to WordPress for SEO control and content depth, with Webflow as the alternative for firms wanting a more visual feel. Practice management software integrates into either.</p>
+      </div>
+ 
+      <!-- Comparison grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+ 
+        <div>
+          <div class="rounded-2xl bg-[#0F3860] px-6 py-4">
+            <h3 class="text-xl sm:text-2xl font-normal text-[#DDEEFF]">Feature</h3>
+          </div>
+          <div class="sm:px-6 px-3">
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Best for</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">SEO control</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Industry pages</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Portal integration</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Monthly cost</div>
+          </div>
+        </div>
+ 
+        <div>
+          <div class="rounded-2xl bg-[#0F3860] px-6 py-4">
+            <h3 class="text-xl sm:text-2xl font-normal text-[#DDEEFF]">WordPress</h3>
+          </div>
+          <div class="sm:px-6 px-3">
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Multi-service, SEO-heavy</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Full</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Unlimited</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Any platform</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">$15–35</div>
+          </div>
+        </div>
+ 
+        <div>
+          <div class="rounded-2xl bg-[#0F3860] px-6 py-4">
+            <h3 class="text-xl sm:text-2xl font-normal text-[#DDEEFF]">Webflow</h3>
+          </div>
+          <div class="sm:px-6 px-3">
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Visual single-service</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Strong</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Unlimited</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Any platform</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">$23–39</div>
+          </div>
+        </div>
+ 
+        <div>
+          <div class="rounded-2xl bg-[#0F3860] px-6 py-4">
+            <h3 class="text-xl sm:text-2xl font-normal text-[#DDEEFF]">Squarespace</h3>
+          </div>
+          <div class="sm:px-6 px-3">
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Solo, DIY</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Limited</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">Template-bound</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">External link only</div>
+            <div class="sm:py-4 py-3 border-b border-[#17436E] text-sm sm:text-base text-[#A3C1DE] font-coss-text">$23–49</div>
+          </div>
+        </div>
+ 
+      </div>
+ 
+      <!-- Integrations -->
+      <div class="mt-16 lg:mt-24 text-center">
+        <h3 class="text-[26px] sm:text-[32px] font-normal text-white">Integrations built into every package</h3>
+        <div class="mt-8 flex flex-wrap justify-center sm:gap-3 gap-2 max-w-[1000px] mx-auto">
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">QuickBooks Online</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">Xero</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">FreshBooks</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">Sage Intacct</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">ShareFile</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">SmartVault</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">TaxDome</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">Canopy</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">Karbon</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">Practice Ignition</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">CallRail</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">Calendly</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">Drake / Lacerte</span>
+        <span class="rounded-full border border-[#3D6994] text-[#A3C1DE] text-sm sm:text-base px-4 py-1.5 font-coss-text">AICPA directory</span>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+
+
+
+  <!-- squarespace   -->
+
+  <section class="py-16 lg:py-24 px-6 lg:px-[77px]">
+    <div class="max-w-[1500px] mx-auto">
+ 
+      <!-- Heading -->
+      <div class="text-center max-w-[820px] mx-auto mb-12 lg:mb-16">
+        <h2 class="text-[34px] sm:text-5xl lg:text-[56px] leading-[120%] font-normal text-[#042C53]"><span class="bg-[linear-gradient(138deg,#D0EDD1_14.88%,#EBEDC7_84.21%)] text-[#009130] rounded-lg px-2">Pixxen vs</span> DIY (Squarespace) vs full-service accounting marketing agency</h2>
+        <p class="mt-5 text-sm lg:text-base leading-[150%] text-[#566D84] font-coss-text">Three honest paths. Each fits a different firm. Here's the math, no spin.</p>
+      </div>
+ 
+      <!-- Comparison grid (column gap 32px) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+ 
+        <div>
+          <div class="rounded-2xl bg-[#CFDAE5] px-6 py-4">
+            <h3 class="text-xl sm:text-2xl font-normal leading-[130%] text-[#0F3860]">Feature</h3>
+          </div>
+          <div class="sm:px-6 px-3">
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Total first-year cost</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Time to launch</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Custom branding</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">SEO content</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Industry pages</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Ongoing content</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Ownership</div>
+          </div>
+        </div>
+ 
+        <div>
+          <div class="rounded-2xl bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] px-6 py-4">
+            <h3 class="text-xl sm:text-2xl font-normal leading-[130%] text-[#0F3860]">Pixxen $999 Pack</h3>
+          </div>
+          <div class="sm:px-6 px-3">
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">$999 one-time</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">14 days</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Yes, full kit</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Real keyword research</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">3-4 included</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Add-on, $150–300/post</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">You own everything</div>
+          </div>
+        </div>
+ 
+        <div>
+          <div class="rounded-2xl bg-[#CFDAE5] px-6 py-4">
+            <h3 class="text-xl sm:text-2xl font-normal leading-[130%] text-[#0F3860]">Squarespace DIY</h3>
+          </div>
+          <div class="sm:px-6 px-3">
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">$300 + your time</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">30–60 of your hours</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Template only</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">You write it</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">You build them</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">You write it</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">You own everything</div>
+          </div>
+        </div>
+ 
+        <div>
+          <div class="rounded-2xl bg-[#CFDAE5] px-6 py-4">
+            <h3 class="text-xl sm:text-2xl font-normal leading-[130%] text-[#0F3860]">Full-service agency</h3>
+          </div>
+          <div class="sm:px-6 px-3">
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">$10K–24K + retainer</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">60–90 days</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Yes</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Yes</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Yes, customized</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">$1K–3K/month retainer</div>
+            <div class="sm:py-4 py-3 border-b border-[#CFDAE5] text-sm sm:text-base text-[#566D84] font-coss-text">Often agency-locked</div>
+          </div>
+        </div>
+ 
+      </div>
+ 
+      <!-- Bottom text -->
+      <p class="mt-12 lg:mt-16 mx-auto max-w-[736px] text-center sm:text-base text-sm leading-[150%] text-[#566D84] font-coss-text">
+        Solo CPA or 2–10 person firm doing $500K–$5M annual revenue, wanting a real branded site without a retainer? Pixxen. Brand-new firm just starting, three months of evenings, and you'll redo it in 18 months? Squarespace works. Established firm with $20M+ revenue running aggressive PPC and content marketing? You need full-service agency, not us. Some firms grow out of our package — that's healthy.
+      </p>
+ 
+    </div>
+  </section>
+
+
+
+  <!-- expect from us  -->
+
+
+  <section class="section-padding bg-[#042C53]">
+    <div class="container">
+           <div class="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-16">
+ 
+      <!-- ===== LEFT (50%) ===== -->
+      <div class="w-full lg:w-1/2">
+        <h2 class="text-[32px] sm:text-5xl lg:text-[56px] leading-[120%] font-normal text-white">What to actually expect from your accounting SEO</h2>
+        <p class="mt-6 text-sm lg:text-base font-normal leading-[150%] text-[#A3C1DE] font-coss-text">
+          Honest up-front beats a sales pitch every time. Here's realistic timeline for organic consultation growth.
+        </p>
+ 
+        <!-- Buttons -->
+        <div class="mt-8 flex flex-col sm:flex-row sm:gap-4 gap-2 flex-wrap">
+          <!-- Primary -->
+          <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] transition-all duration-200">
+            <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+              <span class="t-up text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+              <span class="t-down text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+            </div>
+          </a>
+          <!-- Secondary (outline) -->
+          <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 border border-white bg-transparent transition-all duration-200">
+            <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+              <span class="t-up text-white leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+              <span class="t-down text-white leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+            </div>
+          </a>
+        </div>
+      </div>
+ 
+      <!-- ===== RIGHT (50%) - process cards ===== -->
+      <div class="w-full lg:w-1/2 flex flex-col gap-1">
+ 
+        <!-- Card 1 (active) -->
+        <div class="group rounded-[32px] p-6 sm:p-8 flex items-center gap-5 sm:gap-6 transition-all duration-300 bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]">
+          <span class="shrink-0 w-10 text-center text-[44px] sm:text-[56px] leading-[130%] font-normal text-[#042C53]">1</span>
+          <div class="pl-5 sm:pl-6 border-l border-[#042C53]/25">
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Launch</h3>
+            <p class="mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#042C53] font-coss-text">Site live, GBP optimized. Existing referrals and direct traffic convert better immediately.</p>
+          </div>
+        </div>
+ 
+        <!-- Card 2 -->
+        <div class="group rounded-[32px] p-6 sm:p-8 flex items-center gap-5 sm:gap-6 transition-all duration-300 bg-[#0F3860] hover:bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]">
+          <span class="shrink-0 w-10 text-center text-[44px] sm:text-[56px] leading-[130%] font-normal text-[#9FD34A] group-hover:text-[#042C53] transition-colors duration-300">2</span>
+          <div class="pl-5 sm:pl-6 border-l border-[#3D6994] group-hover:border-[#042C53]/25 transition-colors duration-300">
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF] group-hover:text-[#042C53] transition-colors duration-300">First impressions</h3>
+            <p class="mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#81A7CC] font-coss-text group-hover:text-[#042C53]  transition-colors duration-300">Google indexes all pages. First 'CPA near me' impressions. First 2–8 organic consultations.</p>
+          </div>
+        </div>
+ 
+        <!-- Card 3 -->
+        <div class="group rounded-[32px] p-6 sm:p-8 flex items-center gap-5 sm:gap-6 transition-all duration-300 bg-[#0F3860] hover:bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]">
+          <span class="shrink-0 w-10 text-center text-[44px] sm:text-[56px] leading-[130%] font-normal text-[#9FD34A] group-hover:text-[#042C53] transition-colors duration-300">3</span>
+          <div class="pl-5 sm:pl-6 border-l border-[#3D6994] group-hover:border-[#042C53]/25 transition-colors duration-300">
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF] group-hover:text-[#042C53] transition-colors duration-300">First real lift</h3>
+            <p class="mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#81A7CC] font-coss-text group-hover:text-[#042C53] transition-colors duration-300">Long-tail service queries rank. Industry-specific pages start surfacing for niche searches.</p>
+          </div>
+        </div>
+ 
+        <!-- Card 4 -->
+        <div class="group rounded-[32px] p-6 sm:p-8 flex items-center gap-5 sm:gap-6 transition-all duration-300 bg-[#0F3860] hover:bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]">
+          <span class="shrink-0 w-10 text-center text-[44px] sm:text-[56px] leading-[130%] font-normal text-[#9FD34A] group-hover:text-[#042C53] transition-colors duration-300">4</span>
+          <div class="pl-5 sm:pl-6 border-l border-[#3D6994] group-hover:border-[#042C53]/25 transition-colors duration-300">
+            <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#DDEEFF] group-hover:text-[#042C53] transition-colors duration-300">Compounding</h3>
+            <p class="mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#81A7CC] font-coss-text group-hover:text-[#042C53] transition-colors duration-300">Industry pages and city pages ranking. Consultation requests 2–4x baseline. Tax season multiplies the effect.</p>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <!-- what we won't promise start -->
+  <section class="lose-qualified section-padding bg-[#F0F6FB]">
+    <div class="container">
+ 
+      <!-- Heading -->
+      <div class="accounting-firm-title max-w-[736px] w-full mx-auto text-center md:mb-12 sm:mb-10 mb-8">
+        <h2 class="lg:text-[56px] md:text-5xl sm:text-4xl text-4xl leading-[130%] text-[#042C53]">What we won't <span class="bg-[linear-gradient(138deg,_#D0EDD1_14.88%,_#EBEDC7_84.21%)] text-[#009130] rounded-lg px-2">promise</span></h2>
+        <p class="mt-5 text-sm lg:text-base leading-[150%] text-[#566D84] font-coss-text mx-auto">Three honest paths. Each fits a different firm. Here's the math, no spin.</p>
+      </div>
+ 
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-4 lg:gap-8">
+ 
+        <!-- Card 1 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="assets/images/accounting-firm-promise-1.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="won't promise">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Realistic local SEO ranking expectations</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text"><span class="text-[#009130] font-medium">Page-1 rankings</span> on day one for 'CPA [major metro].' 'CPA NYC' has been fought over for 20 years. We can reliably rank you for niche-plus-neighborhood combinations ('SaaS CPA Brooklyn,' 'construction accountant Queens') 60–120 days out.</p>
+        </div>
+ 
+        <!-- Card 2 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="assets/images/accounting-firm-promise-2.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="won't promise">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Winning against big accounting competitors</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text"><span class="text-[#009130] font-medium">Outranking Intuit, H&amp;R Block,</span> or the directory aggregators. They've spent millions on SEO. We can win the local 3-pack and industry-specific niches they don't cover well.</p>
+        </div>
+ 
+        <!-- Card 3 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="assets/images/accounting-firm-promise-3.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="won't promise">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Compliant accounting marketing approach</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Results without bar and AICPA-compliant marketing language. <span class="text-[#009130] font-medium">AICPA Code of Professional Conduct</span> restricts certain comparative claims. State boards add their own rules. We follow them. No 'best in [state]' or 'guaranteed lower taxes' anywhere on the site.</p>
+        </div>
+ 
+        <!-- Card 4 -->
+        <div class="rounded-[32px] border-2 border-white bg-white pt-8 px-8 pb-12 shadow-[32px_32px_32px_0_rgba(4,44,83,0.05)] hover:shadow-[32px_32px_32px_0_rgba(4,44,83,0.12)] transition-shadow duration-300 flex flex-col items-center text-center">
+          <img src="assets/images/accounting-firm-promise-5.svg" class="img-fluid md:mb-8 sm:mb-6 mb-4" alt="won't promise">
+          <h3 class="text-2xl lg:text-[32px] font-normal leading-[120%] text-[#042C53]">Understanding seasonal accounting demand</h3>
+          <p class="md:mt-6 sm:mt-4 mt-3 text-sm lg:text-base font-normal leading-[150%] text-[#566D84] font-coss-text">Outcomes during the off-season at peak-season volume. May–December consultation volume is structurally lower than <span class="text-[#009130] font-medium">January–April.</span> The site does its job year-round, but tax-season is tax-season.</p>
+        </div>
+ 
+      </div>
+ 
+      <!-- Buttons -->
+      <div class="mt-10 lg:mt-12 flex flex-col sm:flex-row justify-center gap-4">
+        <!-- Primary -->
+        <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)] transition-all duration-200">
+          <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+            <span class="t-up text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+            <span class="t-down text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">Book a free 15-min call</span>
+          </div>
+        </a>
+        <!-- Secondary (outline) -->
+        <a href="#" class="mega-reveal-btn flex justify-center w-full sm:w-auto items-center relative overflow-hidden cursor-pointer px-8 py-4 rounded-full ease-[cubic-bezier(0.2,1,0.3,1)] active:scale-95 border border-[#042C53] bg-transparent transition-all duration-200">
+          <div class="text-mask sm:h-5 h-4 overflow-hidden flex flex-col">
+            <span class="t-up text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+            <span class="t-down text-[#042C53] leading-[120%] text-base sm:text-lg uppercase font-coss-text">See our accounting work</span>
+          </div>
+        </a>
+      </div>
+ 
+    </div>
+  </section>
+  <!-- what we won't promise end -->
+
+
+
+    <!-- content testimonial start -->
+  <section class="content-testimonial content-our-testimonial py-16 lg:py-24 px-6 lg:px-[77px] bg-[#042C53]">
+    <div class="max-w-[1500px] mx-auto">
+ 
+      <div class="text-center mb-12 lg:mb-16">
+        <h2 class="lg:text-[56px] md:text-[48px] sm:text-[38px] text-[32px] leading-[120%] font-normal text-white">Reviews from accounting firms</h2>
+      </div>
+ 
+      <!-- Cards Grid -->
+      <div class="testimonial-real-content-slider grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+ 
+        <!-- Left Sticky Card (gradient) -->
+        <div class="testimonial-real-content-slider-sticky hidden lg:block rounded-[32px] p-8 bg-[linear-gradient(138deg,#50C878_14.88%,#C0C850_84.21%)]">
+          <div class="text-center flex flex-col h-full justify-between">
+            <div class="mb-8">
+              <p class="text-base text-[#042C53] mb-6">120+ Clients</p>
+              <div class="flex items-center justify-center gap-2 mb-6">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#042C53" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 7.1-1.01L12 2z"/></svg>
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#042C53" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 7.1-1.01L12 2z"/></svg>
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#042C53" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 7.1-1.01L12 2z"/></svg>
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#042C53" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 7.1-1.01L12 2z"/></svg>
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#042C53" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 7.1-1.01L12 2z"/></svg>
+              </div>
+              <p class="text-5xl font-normal text-[#042C53]">4.8/5</p>
+            </div>
+            <div>
+              <div class="h-px w-full bg-[#042C53]/25 mb-6"></div>
+              <div class="testimonial-real-content-slider-arrows-desktop" id="arrowsDesktop"></div>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- Right Slider -->
+        <div class="testimonial-real-content-slider-main lg:col-span-2">
+          <div class="splide" id="testimonialSlider">
+            <div class="splide__track">
+              <ul class="splide__list">
+ 
+                                <!-- Slide -->
+                                <li class="splide__slide">
+                                    <div class="rounded-3xl">
+                                        <div class="testimonial-real-content-slider-card overflow-hidden relative gap-[40px] lg:min-h-[420px] border border-[#3D6994] bg-[#0F3860] rounded-[32px] p-8 h-full flex justify-between flex-col">
+ 
+                                            <!-- content-->
+                                            <div class="testi-content">
+                                                <p class="text-base text-[#A3C1DE] leading-[150%]">I'd been on a 'CPA marketing' retainer for $1,200 a month for two years and never knew what they actually did. Pixxen built me a real site for $999, rebuilt my GBP, and within 4 months I had 9 new construction GC clients at $24K each in annual recurring engagements. The ROI math wasn't close.</p>
+                                            </div>
+ 
+                                            <!-- Author -->
+                                            <div class="flex items-end justify-between pt-6 mt-6 border-t border-t-[#3D6994]">
+                                                <div>
+                                                    <h4 class="text-white font-bold text-base leading-[120%] mb-1">Jenn Crawford</h4>
+                                                    <p class="text-sm text-[#A3C1DE] leading-[120%]">Owner, Crawford &amp; Pratt</p>
+                                                </div>
+                                                <img src="assets/images/quote.svg" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2244%22%20height%3D%2236%22%20viewBox%3D%220%200%20512%20512%22%20fill%3D%22%2383C341%22%3E%3Cpath%20d%3D%22M464%20256h-80v-64c0-35.3%2028.7-64%2064-64h8c13.3%200%2024-10.7%2024-24V56c0-13.3-10.7-24-24-24h-8c-88.4%200-160%2071.6-160%20160v240c0%2026.5%2021.5%2048%2048%2048h128c26.5%200%2048-21.5%2048-48V304c0-26.5-21.5-48-48-48zm-288%200H96v-64c0-35.3%2028.7-64%2064-64h8c13.3%200%2024-10.7%2024-24V56c0-13.3-10.7-24-24-24h-8C71.6%2032%200%20103.6%200%20192v240c0%2026.5%2021.5%2048%2048%2048h128c26.5%200%2048-21.5%2048-48V304c0-26.5-21.5-48-48-48z%22/%3E%3C/svg%3E'" class="img-fluid w-10 h-auto" alt="quote">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+ 
+                                <!-- Slide -->
+                                <li class="splide__slide">
+                                    <div class="rounded-3xl">
+                                        <div class="testimonial-real-content-slider-card overflow-hidden relative gap-[40px] lg:min-h-[420px] border border-[#3D6994] bg-[#0F3860] rounded-[32px] p-8 h-full flex justify-between flex-col">
+ 
+                                            <!-- content-->
+                                            <div class="testi-content">
+                                                <p class="text-base text-[#A3C1DE] leading-[150%]">I'd been on a 'CPA marketing' retainer for $1,200 a month for two years and never knew what they actually did. Pixxen built me a real site for $999, rebuilt my GBP, and within 4 months I had 9 new construction GC clients at $24K each in annual recurring engagements. The ROI math wasn't close.</p>
+                                            </div>
+ 
+                                            <!-- Author -->
+                                            <div class="flex items-end justify-between pt-6 mt-6 border-t border-t-[#3D6994]">
+                                                <div>
+                                                    <h4 class="text-white font-bold text-base leading-[120%] mb-1">Jenn Crawford</h4>
+                                                    <p class="text-sm text-[#A3C1DE] leading-[120%]">Owner, Crawford &amp; Pratt</p>
+                                                </div>
+                                                <img src="assets/images/quote.svg" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2244%22%20height%3D%2236%22%20viewBox%3D%220%200%20512%20512%22%20fill%3D%22%2383C341%22%3E%3Cpath%20d%3D%22M464%20256h-80v-64c0-35.3%2028.7-64%2064-64h8c13.3%200%2024-10.7%2024-24V56c0-13.3-10.7-24-24-24h-8c-88.4%200-160%2071.6-160%20160v240c0%2026.5%2021.5%2048%2048%2048h128c26.5%200%2048-21.5%2048-48V304c0-26.5-21.5-48-48-48zm-288%200H96v-64c0-35.3%2028.7-64%2064-64h8c13.3%200%2024-10.7%2024-24V56c0-13.3-10.7-24-24-24h-8C71.6%2032%200%20103.6%200%20192v240c0%2026.5%2021.5%2048%2048%2048h128c26.5%200%2048-21.5%2048-48V304c0-26.5-21.5-48-48-48z%22/%3E%3C/svg%3E'" class="img-fluid w-10 h-auto" alt="quote">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+ 
+                                <!-- Slide -->
+                                <li class="splide__slide">
+                                    <div class="rounded-3xl">
+                                        <div class="testimonial-real-content-slider-card overflow-hidden relative gap-[40px] lg:min-h-[420px] border border-[#3D6994] bg-[#0F3860] rounded-[32px] p-8 h-full flex justify-between flex-col">
+ 
+                                            <!-- content-->
+                                            <div class="testi-content">
+                                                <p class="text-base text-[#A3C1DE] leading-[150%]">I'd been on a 'CPA marketing' retainer for $1,200 a month for two years and never knew what they actually did. Pixxen built me a real site for $999, rebuilt my GBP, and within 4 months I had 9 new construction GC clients at $24K each in annual recurring engagements. The ROI math wasn't close.</p>
+                                            </div>
+ 
+                                            <!-- Author -->
+                                            <div class="flex items-end justify-between pt-6 mt-6 border-t border-t-[#3D6994]">
+                                                <div>
+                                                    <h4 class="text-white font-bold text-base leading-[120%] mb-1">Jenn Crawford</h4>
+                                                    <p class="text-sm text-[#A3C1DE] leading-[120%]">Owner, Crawford &amp; Pratt</p>
+                                                </div>
+                                                <img src="assets/images/quote.svg" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2244%22%20height%3D%2236%22%20viewBox%3D%220%200%20512%20512%22%20fill%3D%22%2383C341%22%3E%3Cpath%20d%3D%22M464%20256h-80v-64c0-35.3%2028.7-64%2064-64h8c13.3%200%2024-10.7%2024-24V56c0-13.3-10.7-24-24-24h-8c-88.4%200-160%2071.6-160%20160v240c0%2026.5%2021.5%2048%2048%2048h128c26.5%200%2048-21.5%2048-48V304c0-26.5-21.5-48-48-48zm-288%200H96v-64c0-35.3%2028.7-64%2064-64h8c13.3%200%2024-10.7%2024-24V56c0-13.3-10.7-24-24-24h-8C71.6%2032%200%20103.6%200%20192v240c0%2026.5%2021.5%2048%2048%2048h128c26.5%200%2048-21.5%2048-48V304c0-26.5-21.5-48-48-48z%22/%3E%3C/svg%3E'" class="img-fluid w-10 h-auto" alt="quote">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+ 
+              </ul>
+            </div>
+          </div>
+          <div class="testimonial-real-content-slider-arrows-mobile lg:hidden" id="arrowsMobile"></div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+
+
+    <!-- footer section start -->
+    <footer class="relative">
+        <div class="bg-gradient-to-b bg-[#011A5D] text-white  border-t border-b border-[#344B8B] ">
+            <div class="container">
+                <!-- Desktop Grid Layout -->
+                <div class="grid md:grid-cols-12 md:gap-8 lg:gap-12">
+
+                    <div
+                        class="lg:col-span-8 md:col-span-7 md:py-12 py-6 flex flex-col gap-1 sm:gap-25 justify-between md:border-b-0 border-b border-[#2E6E69]">
+                        <div class="grid md:grid-cols-4 grid-cols-2 xl:gap-8 gap-4">
+                            <!-- Services Column -->
+                            <div class="">
+                                <h3 class="text-[#fff] text-base sm:text-lg font-semibold mb-3 lg:mb-6">Services</h3>
+                                <ul class="space-y-2 lg:space-y-3">
+                                    <li><a href="mobile-app-design.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">MOBILE
+                                            APP DESIGN</a></li>
+                                    <li><a href="dashboard-design.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">DASHBOARD
+                                            DESIGN</a></li>
+                                    <li><a href="website-design.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">WEBSITE
+                                            DESIGN</a></li>
+                                    <li><a href="web-application-design.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">WEB
+                                            APP DESIGN</a></li>
+                                    <li><a href="saas-design.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">SAAS
+                                            DESIGN</a></li>
+                                    <li><a href="branding-design.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">BRANDING</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Pixxen Column -->
+                            <div class="">
+                                <h3 class="text-[#fff] text-base sm:text-lg font-semibold mb-3 lg:mb-6">Pixxen</h3>
+                                <ul class="space-y-2 lg:space-y-3">
+                                    <li><a href="about.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">ABOUT</a>
+                                    </li>
+                                    <li><a href="contact.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">CONTACT</a>
+                                    </li>
+                                    <li><a href="career.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">CAREER</a>
+                                    </li>
+                                    <li><a href="team.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">TEAM</a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                            <!-- Resources Column -->
+                            <div class="">
+                                <h3 class="text-[#fff] text-base sm:text-lg font-semibold mb-3 lg:mb-6">Resources
+                                </h3>
+                                <ul class="space-y-2 lg:space-y-3">
+                                    <li><a href="case-study.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">CASE
+                                            STUDIES</a>
+                                    </li>
+                                    <li><a href="blog.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">BLOGS</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Legal Column -->
+                            <div class="">
+                                <h3 class="text-[#fff] text-base sm:text-lg font-semibold mb-3 lg:mb-6">Legal</h3>
+                                <ul class="space-y-2 lg:space-y-3">
+                                    <li><a href="terms.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">TERMS</a>
+                                    </li>
+                                    <li><a href="privacy.html"
+                                            class="text-white hover:text-[#5472c4] transition-colors text-[12px] sm:text-sm lg:text-base">PRIVACY</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Copyright -->
+                        <div class="mt-8 lg:mt-0 pt-6 lg:pt-0 border-t border-green4 lg:border-0 md:block hidden">
+                            <p class="text-[#fff] text-sm text-center lg:text-left">© 2026 PIXXEN</p>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Column -->
+                    <div
+                        class="md:pl-10 lg:pl-14 md:border-l  border-[#344B8B] lg:col-span-4 md:col-span-5 md:py-12 sm:py-8 py-6 flex flex-col justify-between gap-5">
+                        <div>
+                            <h3 class="text-[#fff] md:text-lg text-base font-semibold md:mb-3 mb-2 lg:mb-4">Join
+                                5,000+
+                                design lovers.</h3>
+                            <p class="text-[#fff] sm:text-sm text-[12px] mb-4 lg:mb-6">Monthly design insights, case
+                                studies, and
+                                inspiration straight to your inbox.</p>
+
+                            <!-- Email Input -->
+                            <div class="relative mb-3 md:mb-8 lg:mb-12">
+                                <input type="email" placeholder="Email address"
+                                    class="w-full bg-transparent border border-[#344B8B] rounded-2xl px-4 py-5 lg:py-3.5 h-16 text-white placeholder-[#fff] focus:outline-none focus:border-[#fefefe] transition-colors text-sm lg:text-base pr-14" />
+                                <button
+                                    class="absolute group cursor-pointer right-px top-1/2 -translate-y-1/2 bg-[#344B8B] hover:bg-[#5472c4] p-5 rounded-r-2xl transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21"
+                                        fill="none">
+                                        <path
+                                            d="M16.2288 9.03763L9.0768 1.88561L10.9624 0L21.3333 10.371L10.9624 20.7418L9.0768 18.8562L16.2288 11.7043H0V9.03763H16.2288Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Social Icons -->
+                        <div class="flex md:justify-start justify-center md:gap-2 gap-1 lg:gap-2">
+                            <a href="#"
+                                class="bg-[#344B8B] hover:bg-[#5472c4] p-3 sm:rounded-2xl rounded-xl sm:h-16 h-13 sm:w-16 w-13 flex items-center justify-center transition-colors">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.9887 11.5716C19.9029 9.94513 19.3313 8.44745 18.4163 7.22097C18.1749 7.48407 17.8785 7.7698 17.4957 8.09159C16.5881 8.85458 15.4887 9.54307 14.1834 10.101C14.3498 10.4506 14.5029 10.7899 14.6376 11.1098L14.6388 11.1125C14.6652 11.1742 14.6879 11.2306 14.7321 11.3418C14.7379 11.3562 14.7433 11.3697 14.7485 11.3825C16.2621 11.2122 17.8576 11.2749 19.4049 11.4845C19.6106 11.5123 19.805 11.5415 19.9887 11.5716ZM10.6044 4.1213C10.7783 4.36621 10.9602 4.62859 11.1803 4.95378C11.7929 5.8589 12.396 6.81391 12.9604 7.79507C13.0749 7.99416 13.187 8.19289 13.2964 8.39112C14.5193 7.90993 15.5296 7.30281 16.3438 6.62486C16.6731 6.35063 16.9383 6.093 17.1403 5.86972C15.7501 4.70277 13.9571 4 12 4C11.524 4 11.0576 4.04158 10.6044 4.1213ZM4.25266 9.99755C4.83145 9.98452 5.48467 9.94941 6.29303 9.87518C7.90024 9.72758 9.54141 9.46249 11.1549 9.05274C10.5719 8.03721 9.93888 7.02331 9.29452 6.05378C8.98479 5.58775 8.68357 5.14992 8.45484 4.82642C6.39541 5.84613 4.83794 7.72658 4.25266 9.99755ZM5.78366 17.036C6.17111 16.4693 6.68061 15.8314 7.35797 15.1374C8.81199 13.6478 10.5286 12.4878 12.5139 11.8473C12.5417 11.8391 12.5604 11.8336 12.576 11.829C12.411 11.4651 12.2562 11.1405 12.1003 10.8342C10.2643 11.3687 8.3303 11.703 6.40279 11.8762C5.46319 11.9606 4.62005 11.9981 4 12.0044C4.00102 13.9112 4.66915 15.662 5.78366 17.036ZM15.0045 19.4166C14.9001 18.8745 14.7669 18.2706 14.5899 17.574C14.2689 16.3112 13.8668 15.012 13.373 13.7078C11.3712 14.4343 9.77574 15.4974 8.54309 16.7649C7.94904 17.3757 7.51244 17.9537 7.22642 18.4203C8.55892 19.4127 10.2109 20 12 20C13.0626 20 14.0769 19.7928 15.0045 19.4166ZM16.8778 18.3414C18.4073 17.1632 19.4985 15.444 19.8652 13.4703C19.5253 13.3865 19.094 13.3005 18.6196 13.2346C17.5756 13.0897 16.5014 13.0655 15.4409 13.2018C15.8933 14.4764 16.2642 15.7332 16.5608 16.9361C16.6903 17.4614 16.7958 17.9358 16.8778 18.3414ZM12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z"
+                                        fill="white" />
+                                </svg>
+
+                            </a>
+                            <a href="#"
+                                class="bg-[#344B8B] hover:bg-[#5472c4] p-3 sm:rounded-2xl rounded-xl sm:h-16 h-13 sm:w-16 w-13 flex items-center justify-center transition-colors">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.5 11C8.60457 11 9.5 10.1046 9.5 9C9.5 7.89543 8.60457 7 7.5 7H3V11H7.5ZM8.5 13H3V17H8.5C9.60457 17 10.5 16.1046 10.5 15C10.5 13.8954 9.60457 13 8.5 13ZM10.5632 11.5725C11.7239 12.2726 12.5 13.5457 12.5 15C12.5 17.2091 10.7091 19 8.5 19H1V5H7.5C9.70914 5 11.5 6.79086 11.5 9C11.5 9.97964 11.1478 10.877 10.5632 11.5725ZM15.5 6H21V7.5H15.5V6ZM23 14.5H15.5V14.75C15.5 16.2688 16.7312 17.5 18.25 17.5C19.3187 17.5 20.245 16.8904 20.7001 16H22.8338C22.2851 18.0169 20.4407 19.5 18.25 19.5C15.6266 19.5 13.5 17.3734 13.5 14.75V13.25C13.5 10.6266 15.6266 8.5 18.25 8.5C20.8734 8.5 23 10.6266 23 13.25V14.5ZM20.8965 12.5C20.57 11.3457 19.5088 10.5 18.25 10.5C16.9912 10.5 15.93 11.3457 15.6035 12.5H20.8965Z"
+                                        fill="white" />
+                                </svg>
+
+                            </a>
+                            <a href="#"
+                                class="bg-[#344B8B] hover:bg-[#5472c4] p-3 sm:rounded-2xl rounded-xl sm:h-16 h-13 sm:w-16 w-13 flex items-center justify-center transition-colors">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13 9H17.5L17 11H13V20H11V11H7V9H11V7.12777C11 5.34473 11.1857 4.69816 11.5343 4.04631C11.8829 3.39446 12.3945 2.88288 13.0463 2.53427C13.6982 2.18565 14.3447 2 16.1278 2C16.6498 2 17.1072 2.05 17.5 2.15V4H16.1278C14.8041 4 14.401 4.07784 13.9895 4.29789C13.6862 4.46011 13.4601 4.68619 13.2979 4.98951C13.0778 5.40096 13 5.80407 13 7.12777V9Z"
+                                        fill="white" />
+                                </svg>
+
+
+                            </a>
+                            <a href="#"
+                                class="bg-[#344B8B] hover:bg-[#5472c4] p-3 sm:rounded-2xl rounded-xl sm:h-16 h-13 sm:w-16 w-13 flex items-center justify-center transition-colors">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 9.55005C12.9171 8.61327 14.1111 8 15.5 8C18.5375 8 21 10.4624 21 13.5V21H19V13.5C19 11.567 17.433 10 15.5 10C13.567 10 12 11.567 12 13.5V21H10V8.5H12V9.55005ZM5 6.5C4.17157 6.5 3.5 5.82843 3.5 5C3.5 4.17157 4.17157 3.5 5 3.5C5.82842 3.5 6.5 4.17157 6.5 5C6.5 5.82843 5.82842 6.5 5 6.5ZM4 8.5H6V21H4V8.5Z"
+                                        fill="white" />
+                                </svg>
+
+                            </a>
+                        </div>
+                        <!-- Copyright -->
+                        <div class="mt-1 flex justify-center md:hidden ">
+                            <p class="text-[#fff] text-sm text-center lg:text-left">© 2026 PIXXEN</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div
+            class="bg-gradient-to-b from-[#011A5D] to-[#FFCD00] sticky -z-10 bottom-0 left-0 w-full  flex justify-center items-end">
+            <div class="flex justify-center text-center">
+                <img src="assets/images/home-services-pixxen-footer-logo.svg" class="img-fluid w-full object-contain"
+                    alt="footerlogo">
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenLite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
