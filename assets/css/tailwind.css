@@ -797,3 +797,33 @@ html.lenis, html.lenis body {
 @media (min-width: 1024px) { .testimonial-real-content-slider-arrows-desktop { display: flex !important; } }
 .testimonial-real-content-slider-arrows-mobile { display: flex !important; }
 @media (min-width: 1024px) { .testimonial-real-content-slider-arrows-mobile { display: none !important; } }
+
+
+
+
+  /* ===== FAQ accordion (plain CSS so it works regardless of Tailwind build) ===== */
+  .accounting-firm-faq-item { cursor: pointer; }
+ 
+  .accounting-firm-faq-answer { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .3s ease-out; }
+  .accounting-firm-faq-item.is-open .accounting-firm-faq-answer { grid-template-rows: 1fr; }
+ 
+  .faq-minus { display: none; }
+  .accounting-firm-faq-item.is-open .faq-plus { display: none; }
+  .accounting-firm-faq-item.is-open .faq-minus { display: block; }
+ 
+  .faq-q-badge { background: #DBF0D4; color: #2F9E44; }
+  .accounting-firm-faq-item.is-open .faq-q-badge {
+    background: linear-gradient(138deg, #50C878 14.88%, #C0C850 84.21%);
+    color: #042C53;
+  }
+
+
+  .accounting-firm-testimonial #arrowsMobile button{
+    background: #0F3860;
+  }
+  .accounting-firm-testimonial #arrowsMobile button:hover{
+    background: #2F9E44;
+  }
+
+
+  

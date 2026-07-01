@@ -495,13 +495,13 @@ document.addEventListener('DOMContentLoaded', function () {
 // FAQ ACCORDION
 // ============================================
 document.addEventListener('DOMContentLoaded', function() {
-    const faqItems = document.querySelectorAll('.faq-item');
+    const faqItems = document.querySelectorAll('.accounting-firm-faq-item');
     
     if (faqItems.length === 0 || typeof gsap === 'undefined') return;
     
     // Initialize all FAQ items as collapsed
     faqItems.forEach((item) => {
-        const answer = item.querySelector('.faq-answer');
+        const answer = item.querySelector('.accounting-firm-accounting-firm-faq-answer');
         const icon = item.querySelector('.plus-icon');
         
         // Remove active class from all items
@@ -521,7 +521,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add click event listeners
     faqItems.forEach(item => {
         const question = item.querySelector('.faq-question');
-        const answer = item.querySelector('.faq-answer');
+        const answer = item.querySelector('.accounting-firm-accounting-firm-faq-answer');
         const icon = item.querySelector('.plus-icon');
         
         if (!question) return;
@@ -531,7 +531,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Close all other items
             faqItems.forEach(otherItem => {
-                const otherAnswer = otherItem.querySelector('.faq-answer');
+                const otherAnswer = otherItem.querySelector('.accounting-firm-accounting-firm-faq-answer');
                 const otherIcon = otherItem.querySelector('.plus-icon');
                 
                 otherItem.classList.remove('active');
@@ -1401,10 +1401,14 @@ const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     </svg>`;
  
     const testimonialSplide = new Splide('#testimonialSlider', {
-      type: 'loop', perPage: 2, perMove: 1, gap: '2rem',
+      type: 'loop', perPage: 3, perMove: 1, gap: '2rem',
       autoplay: true, interval: 4000, pauseOnHover: true,
       arrows: true, pagination: false,
-      breakpoints: { 1024: { perPage: 1, gap: '1.5rem' } }
+      breakpoints: { 
+        1400: { perPage: 2, gap: '1.5rem' } ,
+        1024: { perPage: 1, gap: '1.5rem' } 
+    
+    }
     });
  
     testimonialSplide.mount();
@@ -1432,3 +1436,14 @@ const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     originalArrows.style.display = 'none';
   }
   initContentTestimonialSlider();
+
+
+  //accounting firm footer
+
+   document.querySelectorAll('.accounting-firm-faq-item').forEach(function(item){
+      item.addEventListener('click', function(){
+        var isOpen = item.classList.contains('is-open');
+        document.querySelectorAll('.accounting-firm-faq-item').forEach(function(i){ i.classList.remove('is-open'); });
+        if (!isOpen) item.classList.add('is-open');
+      });
+    });
